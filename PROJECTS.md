@@ -6,8 +6,20 @@ This preview covers selected projects and research directions.
 
 | Project | Evidence status |
 |---|---|
-| [Planetary Systems Integration (PSI-001)](https://github.com/Open-Inquiry-Initiative/planetary-systems-integration) | Conceptual hypothesis with a proposed comparison. The project reports no measured outcomes. |
+| [Planetary Systems Integration (PSI-001)](https://github.com/Open-Inquiry-Initiative/planetary-systems-integration) | [Synthetic dispatch experiment](#psi-001-synthetic-dispatch-experiment) completed. No tested scenario met the 1% net savings threshold. |
 | [OCS Baseline Prototype](https://github.com/Talos-Labs-documents/ocs-baseline-prototype) | All 100 deterministic trial records matched in a [fresh reproduction](#ocs-reproduction). |
+
+### PSI-001 synthetic dispatch experiment
+
+The preview ran 8,760 hourly electricity and district-heating dispatch steps with fixed equipment, no storage, and no ramping constraints. Both planners met all demand in the baseline, a 72-hour cold snap, and a 48-hour simulated thermal-trunk outage modeled as heat-pump unavailability.
+
+| Scenario | Net savings with flat tariff | Net savings with hourly tariff |
+|---|---:|---:|
+| Baseline | 272,995 | −100,000 |
+| Cold snap | 271,751 | −100,000 |
+| Simulated thermal-trunk outage | 268,045 | −100,000 |
+
+Values are rounded synthetic currency units. Net savings include an assumed annual coordination cost of 100,000 units. With a flat tariff for the independent planner, savings were about 0.57–0.58%, below the 1% threshold. With the same hourly prices available to both planners, dispatch decisions matched and coordination added its assumed overhead. The findings apply to the modeled scenarios. Field performance and independent reproduction remain open.
 
 ### OCS reproduction
 
