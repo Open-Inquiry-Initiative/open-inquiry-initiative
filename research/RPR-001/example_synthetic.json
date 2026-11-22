@@ -1,0 +1,45 @@
+[
+  {
+    "id": "idea",
+    "timestamp": "2026-11-01T00:00:00Z",
+    "title": "Spatial concept",
+    "kind": "idea",
+    "dependencies": [],
+    "source": "synthetic",
+    "evidence_status": "idea"
+  },
+  {
+    "id": "graph",
+    "timestamp": "2026-11-02T00:00:00Z",
+    "title": "World graph",
+    "kind": "implementation",
+    "dependencies": [
+      "idea"
+    ],
+    "source": "synthetic",
+    "evidence_status": "implemented"
+  },
+  {
+    "id": "persist",
+    "timestamp": "2026-11-04T00:00:00Z",
+    "title": "Persistence",
+    "kind": "implementation",
+    "dependencies": [
+      "graph"
+    ],
+    "source": "synthetic",
+    "evidence_status": "implemented"
+  },
+  {
+    "id": "nested",
+    "timestamp": "2026-11-06T00:00:00Z",
+    "title": "Nested worlds",
+    "kind": "experiment",
+    "dependencies": [
+      "graph",
+      "persist"
+    ],
+    "source": "synthetic",
+    "evidence_status": "simulated"
+  }
+]
