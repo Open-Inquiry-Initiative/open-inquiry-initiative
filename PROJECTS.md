@@ -29,6 +29,8 @@ Across the 25 synthetic scheduling instances, OCS scored better than the include
 
 ## Research directions
 
+- **[OII-AKR-001 — Ancient Knowledge Reexamination](research/OII-AKR-001/README.md)** — public research charter; first branch OII-HERM-001 examines Hermetic literature, followed by cross-cultural historical texts. Preliminary hypotheses only; corpus acquisition, controls and validation pending.
+
 - **[RABE-MATH-001 — Recursive Examination of Mathematical Foundations](research/RABE-MATH-001/README.md)** — public research charter; proposed methodology, no experimental validation yet. Initial case study: Gödel's incompleteness theorems. Implementation deferred.
 
 - **Reality OS** explores persistent spatial computing environments, recursive worlds, and human–AI tools. Public artifact mapping is pending.
