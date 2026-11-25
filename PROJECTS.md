@@ -29,6 +29,8 @@ Across the 25 synthetic scheduling instances, OCS scored better than the include
 
 ## Research directions
 
+- **[RABE-MATH-001 — Recursive Examination of Mathematical Foundations](research/RABE-MATH-001/README.md)** — public research charter; proposed methodology, no experimental validation yet. Initial case study: Gödel's incompleteness theorems. Implementation deferred.
+
 - **Reality OS** explores persistent spatial computing environments, recursive worlds, and human–AI tools. Public artifact mapping is pending.
 - **Human–AI mutual grounding** explores how humans and AI establish, check, and repair shared task context. This preview presents it as proposed evaluation research.
 - **Research cartography** explores how to map projects, assumptions, experiments, and uncertainty while preserving provenance. Public artifact mapping is pending.
