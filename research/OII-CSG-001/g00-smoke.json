@@ -1,0 +1,88 @@
+{
+  "cycle4": {
+    "connected": true,
+    "converged": true,
+    "degree_sequence": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "directed_messages_observed": 80,
+    "mean_drift": 0.0,
+    "nodes": 4,
+    "nonloop_edges": 4,
+    "rounds_observed": 10,
+    "spectral_gap": 0.5,
+    "wire_cost": 5.656854249492
+  },
+  "cycle4_edge_failure": {
+    "connected": true,
+    "converged": true,
+    "degree_sequence": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "directed_messages_observed": 162,
+    "mean_drift": 0.0,
+    "nodes": 4,
+    "nonloop_edges": 3,
+    "removed": [
+      0,
+      3
+    ],
+    "rounds_observed": 27,
+    "spectral_gap": 0.146446609407,
+    "wire_cost": 4.242640687119
+  },
+  "disconnected": {
+    "connected": false,
+    "converged": false,
+    "degree_sequence": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "directed_messages_observed": 0,
+    "mean_drift": 0.0,
+    "nodes": 4,
+    "nonloop_edges": 0,
+    "rounds_observed": 2000,
+    "spectral_gap": 0.0,
+    "wire_cost": 0
+  },
+  "family_sizes": {
+    "dodecahedral": 20,
+    "explicit_expander": 16,
+    "icosahedral": 12,
+    "mesh": 20,
+    "random_regular_12_5": 12,
+    "random_regular_16_4": 16,
+    "random_regular_20_3": 20,
+    "recursive": 16,
+    "ring": 20,
+    "star": 20,
+    "triangular": 20
+  },
+  "swap_checks": 6,
+  "uniform_rescaling": {
+    "connected": true,
+    "converged": true,
+    "degree_sequence": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "directed_messages_observed": 80,
+    "mean_drift": 0.0,
+    "nodes": 4,
+    "nonloop_edges": 4,
+    "rounds_observed": 10,
+    "spectral_gap": 0.5,
+    "wire_cost": 11.313708498985
+  }
+}
