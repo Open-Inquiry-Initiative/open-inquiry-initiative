@@ -2,6 +2,12 @@
 
 Open Inquiry Initiative is an evolving research program investigating human–computational understanding, spatial computing, artificial intelligence, simulations, and systems engineering. The initiative shares research questions, methods, prototypes, limitations, and reproducible evidence where available.
 
+## Tomorrow's technology. Today's computation.
+
+**We are not waiting for tomorrow. We are building toward it, so that when tomorrow arrives, we are already there.**
+
+Read our [institutional manifesto](MANIFESTO.md).
+
 ## Start here
 
 - [Public project map](PROJECTS.md) for the projects and research directions in this preview.
